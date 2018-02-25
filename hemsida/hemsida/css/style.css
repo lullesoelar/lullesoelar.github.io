@@ -1,0 +1,76 @@
+body {
+  background-color:#28B463;
+  background-image: url(../bilder/vatten.jpg);
+  background-size: cover;
+  font-family: 'Barlow', sans-serif;
+}
+
+
+
+h1{
+  color:white;
+ font-size:68px;
+ text-align:center;
+}
+
+h2{
+  color:white;
+  text-align:center;
+}
+.länkar{
+  font-size:45px;
+}
+#l7{
+  color:blue;
+}
+#l6{
+  color:lightgreen;
+}
+#l5{
+  color:hotpink;
+}
+#l4{
+  color:orange;
+}
+#l3{
+  color:purple;
+}
+#l2{
+  color:red;
+}
+#l1{
+  color:turquoise;
+}
+.abc{
+  font-size:45px;
+}
+#ö1{
+color:blue;
+}
+#ö2{
+  color:lightgreen;
+}
+#ö3{
+  color:orange;
+}
+#ö4{
+ color:hotpink;
+}
+.äö{
+font-size:45px;}
+#h1{
+  color:orange;
+}
+#h2{
+color:blue;
+}
+#h3{
+  color:hotpink;
+}
+#h4{
+  color:lightgreen;
+}
+h1:hover{
+  color: red;
+  font-size:80px;
+}
