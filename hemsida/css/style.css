@@ -1,0 +1,92 @@
+body {
+
+  font-family: 'Barlow', sans-serif;
+}
+
+
+
+h1{
+  color:white;
+ font-size:68px;
+ text-align:center;
+}
+
+h2{
+  color:white;
+  text-align:center;
+}
+.länkar{
+  font-size:45px;
+}
+#l7{
+  color:blue;
+}
+#l6{
+  color:lightgreen;
+}
+#l5{
+  color:hotpink;
+}
+#l4{
+  color:orange;
+}
+#l3{
+  color:purple;
+}
+#l2{
+  color:red;
+}
+#l1{
+  color:turquoise;
+}
+.abc{
+  font-size:45px;
+}
+#ö1{
+color:blue;
+}
+#ö2{
+  color:lightgreen;
+}
+#ö3{
+  color:orange;
+}
+#ö4{
+ color:hotpink;
+}
+.äö{
+font-size:45px;}
+#h1{
+  color:orange;
+}
+#h2{
+color:blue;
+}
+#h3{
+  color:hotpink;
+}
+#h4{
+  color:lightgreen;
+}
+h1:hover{
+  color: red;
+  font-size:80px;
+}
+
+
+.parallax {
+
+    min-height: 1400px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bild1{
+    background-image: url(../bilder/vatten.jpg);
+}
+
+#bild2{
+    background-image: url(../bilder/lulle.jpg);
+}

@@ -1,0 +1,51 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Hemsidans titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+  <nav class="nav navbar-inverse navbar-static-top">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Startsida</a>
+          <ul class="nav navbar-nav">
+              <li><a href="menyval1.html">topplista musik</a></li>
+              <li><a href="menyval2.html">topplista spel</a></li>
+              <li><a href="menyval3.html">topplista mat</a></li>
+          </ul>
+      </div>
+  </nav>
+
+<a href="https://www.arla.se/recept/spaghetti-med-kottfarssas?gclid=EAIaIQobChMIy5f6j_XA2QIVGc-yCh109QQYEAAYASAAEgI3d_D_BwE"class="äö" id="h1">1:spageti och kötfärssås</a> <br>
+
+<a href="https://www.mytaste.se/recept?q=lax%20med%20citrons%C3%A5s&source=ppc1&gclid=EAIaIQobChMI9LruuvXA2QIVGWUZCh164gm4EAAYASAAEgIQ9fD_BwE"class="äö"id="h2">2:lax och ris med citron sås</a> <br>
+
+<a href="https://www.mathem.se/recept/pannkakor---grundrecept?gclid=EAIaIQobChMIgtf79PXA2QIV0smyCh37mwDAEAAYASAAEgI63_D_BwE"class="äö" id="h3">3:pankaka</a> <br>
+<a href="https://www.arla.se/recept/teman/pizza/?gclid=EAIaIQobChMIy7HTmvbA2QIVVdwZCh1jVgL7EAAYAyAAEgJUB_D_BwE" class="äö" id="h4">4:pizza </a>
+
+
+</body>
+</html>
