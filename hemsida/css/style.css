@@ -1,5 +1,7 @@
 body {
-
+  background-color:#28B463;
+  background-image: url(../bilder/vatten.jpg);
+  background-size: cover;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -71,22 +73,4 @@ color:blue;
 h1:hover{
   color: red;
   font-size:80px;
-}
-
-
-.parallax {
-
-    min-height: 1400px;
-    background-attachment: fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#bild1{
-    background-image: url(../bilder/vatten.jpg);
-}
-
-#bild2{
-    background-image: url(../bilder/lulle.jpg);
 }
